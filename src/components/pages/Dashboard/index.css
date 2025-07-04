@@ -1,0 +1,39 @@
+.dashboard-container {
+  padding: 20px;
+}
+
+.welcome-card {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-card {
+  text-align: center;
+}
+
+.card-container {
+  margin-top: 20px;
+  font-weight: bold;
+  color: black;
+  font-size: 25px;
+}
+
+
+
+.pie-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.dashboard-card .card-title{
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .pie-chart-card, .welcome-card, .dashboard-card {
+    margin-bottom: 20px;
+  }
+}
